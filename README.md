@@ -18,13 +18,20 @@ This can help sample the region and obtain a single connected region as shown:
 
 ![after](after.png)
 
-ending update in pipeline:
 
-Using tarjan's algorithm for identification of disconneced regions
+Pending update in pipeline:
 
-and retrieval of optimal centers of new umbrella sampling in an attempt
+- Using tarjan's algorithm for identification of disconneced regions
 
-to minimize new umbrella simulations needed
+    - and retrieval of optimal centers of new umbrella sampling in an attempt
+
+    - to minimize new umbrella simulations needed
+ 
+- Encoding tool to accept input of data from multiple simulations
+
+    - to allow configuration identification from multiple independent simulations
+
+    - in conjunction to above, identify optimal centers that have not been sampled in multiple simulations
 
 ## To install:
 
