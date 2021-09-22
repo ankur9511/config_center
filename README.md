@@ -23,12 +23,15 @@ to minimize new umbrella simulations needed
 Clone repository anywhere in your terminal or Download the repository content
 
 To clone repository:
+
 `git clone https://github.com/ankur9511/config_center.git`
 
 Then go to the folder where you cloned and run on shell prompt
+
 `make`
 
 The output will be 
+
 `# make test_gromacs`
 
 or,
@@ -38,10 +41,12 @@ or,
 Choose one of the platform
 and, run one of the above
 Instructions to load environment will be outputted to use the file
+
 `source loadenv`
 
 Instructions to use will be in the file with name *example*
 To locate the file:
+
 `ls *example*`
 
 ### Running the example:
