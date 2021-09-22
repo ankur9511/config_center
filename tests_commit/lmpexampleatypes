@@ -1,0 +1,4 @@
+variable	natype string 7
+variable	atypes string "O O O Si Si Al H"
+variable	pore1 string 288 #440
+variable 	pore2 string 430 #282

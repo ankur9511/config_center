@@ -1,0 +1,11 @@
+testsimtool \
+CVfile=tests/gmxexampleCV  \
+CVcol=2  \
+center=0.5  \
+ncols=11  \
+dtCV=500 \
+genconf=y \
+platform=gromacs \
+xtcname=tests/gmxexample.xtc \
+tprname=tests/gmxexample.tpr \
+exe=gmx_mpi

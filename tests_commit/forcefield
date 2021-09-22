@@ -1,0 +1,13 @@
+#include		/project/palmer/Ankur/MFI_reax/MFI_T8_O17_opuntia_CH3OH/MFI_AlH_112/atypes
+#include		/project/palmer/Ankur/MFI_reax/MFI_T8_O17_opuntia_CH3OH/MFI_AlH_112/tstep_0pt5/wCH3OH/moltypes
+include			lmpexampleatypes
+include			lmpexamplemoltypes
+read_restart	lmpexample_old
+print		"Read restart"
+
+	pair_style	reax/c lmp_control_zeo_hc
+	pair_coeff	* * /project/palmer/Ankur/MFI_reax/ffield2.reax.zeohc ${atypes} ${moltypes}
+	fix             qeq all qeq/reax 1 0.0 10.0 1e-6 reax/c
+	print		"FF defined"
+
+

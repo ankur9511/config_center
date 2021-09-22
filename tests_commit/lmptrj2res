@@ -1,0 +1,18 @@
+#
+print 		"Change directory"
+shell		cd ${wdir}
+print 		"Directory changed"
+units		real
+atom_style	full
+print 		"units, style defined"
+include 	forcefield
+read_dump 	lmpexample.lammpstrj ${timeconfig} x y z replace yes box yes format native
+reset_timestep	0
+
+reset_timestep	0
+print 		"Time reset"
+run		0
+write_restart	${outdir}/conf.lmprestart
+write_dump	all atom ${outdir}/conf.lammpstrj
+print		"Wrote restart"
+quit

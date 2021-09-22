@@ -1,0 +1,10 @@
+testsimtool \
+CVfile=tests/lmpexampleCV  \
+CVcol=2  \
+center=0.5  \
+ncols=12  \
+dtCV=1000 \
+genconf=y \
+platform=lammps \
+wdir=tests/ \
+exe=lmp_mpi
