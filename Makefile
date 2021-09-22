@@ -12,7 +12,7 @@ default:
 
 test_gromacs:
 	@echo "alias testsimtool=${PWD}/src/find_closest_sim.py" > loadenv
-	@cp tests/gmxexample .
+	@cp tests_commit/gmxexample .
 	@chmod +x gmxexample
 	# The test can be performed
 	# by loading environment: 
@@ -22,8 +22,8 @@ test_gromacs:
 
 test_lammps:
 	@echo "alias testsimtool=${PWD}/src/find_closest_sim.py" > loadenv
-	@cp tests/lmpexample .
-	@cp tests/lmptrj* .
+	@cp tests_commit/lmpexample .
+	@cp tests_commit/lmptrj* .
 	@chmod +x lmpexample
 	# The test can be performed
 	# by loading environment: 
