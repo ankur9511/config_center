@@ -1,10 +1,10 @@
 testsimtool \
-CVfile=tests/lmpexampleCV  \
+CVfile=tests_commit/lmpexampleCV  \
 CVcol=2  \
 center=0.5  \
 ncols=12  \
 dtCV=1000 \
 genconf=y \
 platform=lammps \
-wdir=tests/ \
+wdir=tests_commit/ \
 exe=lmp_mpi
