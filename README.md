@@ -12,7 +12,7 @@
 ## Pending update in pipeline:
 ### Using tarjan's algorithm for identification of disconneced regions
 ### and suggesting optimal centers of new umbrella sampling in an attempt
-### to minimize new umbrella simulations neeed
+### to minimize new umbrella simulations needed
 #
 # To install:
 ### Clone repository anywhere in your terminal or Download the repository content
