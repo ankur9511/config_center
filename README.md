@@ -1,7 +1,19 @@
 # config_center
 # Obtain seed configurations near an order parameter(s) region from previous simulations
 ### Utility: Seed configurations for umbrella sampling
-
+### As a SYNTHETIC example, if one has a system which has been sampled sparsely 
+### (white color denotes unsampled region)
+### in disconnected regions in an order parameter space
+![before](before.png)
+### then, this tool can be used to find new configurations to seed new simulations to sample
+### the white region (unsampled region) between colored regions (sampled region)
+### This can help sample the region and obtain a single connected region as shown:
+![after](after.png)
+## Pending update in pipeline:
+### Using tarjan's algorithm for identification of disconneced regions
+### and suggesting optimal centers of new umbrella sampling in an attempt
+### to minimize new umbrella simulations neeed
+#
 # To install:
 ### run on shell prompt
 `make`
