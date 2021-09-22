@@ -16,7 +16,7 @@ This can help sample the region and obtain a single connected region as shown:
 ending update in pipeline:
 
 Using tarjan's algorithm for identification of disconneced regions
-and suggesting optimal centers of new umbrella sampling in an attempt
+and retrieval of optimal centers of new umbrella sampling in an attempt
 to minimize new umbrella simulations needed
 
 ## To install:
